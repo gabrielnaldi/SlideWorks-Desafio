@@ -1,0 +1,64 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Oxygen, sans-serif;
+    margin: 2rem;
+
+    align-items: center;
+}
+
+p{
+    font-size: 0.8em;
+}
+
+title{
+    padding:1rem;
+}
+
+img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card__btn{
+    display: inline-block;
+    margin: 20px;
+    margin-right: 40px;
+}
+
+.card__data{
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.livro{
+    width: 300px;
+    margin: 10px;
+    display: inline-block;
+    text-align: justify;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, min-max(12rem, 16rem));
+    gap: 2rem;
+    justify-content: center;
+}
+
+.card {
+    overflow: hidden;
+    box-shadow: 0 2px 20px;
+    border-radius: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: transform 200ms ease-in;
+
+}
