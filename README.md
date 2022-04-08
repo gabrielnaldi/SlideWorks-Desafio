@@ -9,7 +9,7 @@ Nessa etapa, inicialmente, busquei entender o que é o React e como ele funciona
 ### * Solução
 
 * Header: Integrei o react com o bootstrap para adicionar o cabeçalho estilisado.
-* API: Integrei o sistema com uma api AXIOS, ela cuidará da parte de acesso aos dados (dentro do arquivo Api.js).
+* API: Pesquisei uma forma de consumir dados de API. Encontrei a AXIOS e, a seguir, a integrei com o sistema. Assim, ela cuidará da parte de acesso aos dados (dentro do arquivo Api.js).
 * Principal: 
   1. Criei um state, inicialmente, vazio para armazenar os dados de todos os livros.
   2. Adicionei o componente DidMount para armazenar somente os dados Array (data) fornecido pela API no state anterior.
