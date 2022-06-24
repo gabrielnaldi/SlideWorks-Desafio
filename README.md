@@ -1,4 +1,4 @@
-# SlideWorks-Desafio
+# Slideworks-Desafio
 Repositório utilizado para resolver o problema proposto pela equipe SlideWorks.<hr>
 
 ## Etapas
